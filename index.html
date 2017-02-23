@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Ficha de datos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0"> </head>
+
+<body>
+    <div align="center">
+        <h1>Ficha de datos</h1>
+        <div align="left">
+            <form>
+                <table>
+                    <tr>
+                        <p>
+                            <td>
+                                <label for="nombre" required>Ingresa tu nombre: </label>
+                            </td>
+                            <td>
+                                <input type="text" name="nombre" id="nombre" />
+                            </td>
+                        </p>
+                    </tr>
+                    
+                    <tr>
+                        <p>
+                            <td>
+                                <label for="apellido" required>Ingresa tu apellido: </label>
+                            </td>
+                            <td>
+                                <input type="text" name="apellido" id="apellido" />
+                            </td>
+                        </p>
+                    </tr>
+                    
+                    <tr>
+                        <p>
+                            <td>
+                                <label for="dni" required>Ingresa tu DNI: </label>
+                            </td>
+                            <td>
+                                <input type="text" name="dni" id="dni" />
+                            </td>
+                        </p>
+                    </tr>
+                    
+                    <tr>
+                        <p>
+                            <td>
+                                <label for="direccion">Ingresa tu dirección: </label>
+                            </td>
+                            <td>
+                                <input type="text" name="direccion" id="direccion" />
+                            </td>
+                        </p>
+                    </tr>
+                </table>
+                <br>
+                <button type="button" onclick="validate();">Enviar datos</button>
+                <br>
+                <br>
+            </form>
+            <div id="data"></div>
+        </div>
+    </div>
+    <script src="Assets/js/main.js"></script>
+</body>
+
+</html>
