@@ -10,57 +10,44 @@
     <div align="center">
         <h1>Ficha de datos</h1>
         <div align="left">
-            <form>
+            <form name="contact-form">
                 <table>
                     <tr>
-                        <p>
-                            <td>
-                                <label for="nombre" required>Ingresa tu nombre: </label>
-                            </td>
-                            <td>
-                                <input type="text" name="nombre" id="nombre" />
-                            </td>
-                        </p>
+                        <td>
+                            <label for="nombre" required>Ingresa tu nombre: </label>
+                        </td>
+                        <td>
+                            <input type="text" name="nombre" id="nombre" /> </td>
                     </tr>
                     
                     <tr>
-                        <p>
-                            <td>
-                                <label for="apellido" required>Ingresa tu apellido: </label>
-                            </td>
-                            <td>
-                                <input type="text" name="apellido" id="apellido" />
-                            </td>
-                        </p>
+                        <td>
+                            <label for="apellido" required>Ingresa tu apellido: </label>
+                        </td>
+                        <td>
+                            <input type="text" name="apellido" id="apellido" /> </td>
                     </tr>
                     
                     <tr>
-                        <p>
-                            <td>
-                                <label for="dni" required>Ingresa tu DNI: </label>
-                            </td>
-                            <td>
-                                <input type="text" name="dni" id="dni" />
-                            </td>
-                        </p>
+                        <td>
+                            <label for="dni" required>Ingresa tu DNI: </label>
+                        </td>
+                        <td>
+                            <input type="text" name="dni" id="dni" /> </td>
                     </tr>
                     
                     <tr>
-                        <p>
-                            <td>
-                                <label for="direccion">Ingresa tu dirección: </label>
-                            </td>
-                            <td>
-                                <input type="text" name="direccion" id="direccion" />
-                            </td>
-                        </p>
+                        <td>
+                            <label for="direccion">Ingresa tu dirección: </label>
+                        </td>
+                        <td>
+                            <input type="text" name="direccion" id="direccion" /> </td>
                     </tr>
                 </table>
                 <br>
                 <button type="button" onclick="validate();">Enviar datos</button>
                 <br>
-                <br>
-            </form>
+                <br> </form>
             <div id="data"></div>
         </div>
     </div>

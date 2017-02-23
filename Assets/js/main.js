@@ -5,7 +5,8 @@ function profile() {
     var nombre = document.getElementById("nombre").value,
         apellido = document.getElementById("apellido").value,
         dni = document.getElementById("dni").value,
-        direccion = document.getElementById("direccion").value;
+        direccion = document.getElementById("direccion").value,
+        frm = document.getElementsByName('contact-form')[0];
     
     document.getElementById("data").innerHTML = "<ul>" +
         "<li>Nombre: " + nombre + "</li>" +
@@ -13,6 +14,8 @@ function profile() {
         "<li>DNI: " + dni + "</li>" +
         "<li>Dirección: " + direccion + "</li>" +
         "</ul>";
+    frm.reset();
+    return false;
 }
 
 function validate() {
